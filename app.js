@@ -8,6 +8,9 @@ $(function() {
 
   // pressing on a number
   $('.number').click(function() {
+    if(currentOperator === 'equal') {
+      firstOperand = undefined;
+    }
     pushNumber($(this).data('number'));
     updateDisplay();
   });
@@ -84,7 +87,8 @@ function calculateFirstOperand() {
 
 function equal() {
   calculateFirstOperand();
-  currentOperator = '';
+  currentInput = '0';
+  currentOperator = 'equal';
 };
 
 function add() {
