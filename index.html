@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator</title>
   <link href="style.css" type="text/css" rel="stylesheet">
   <link href="./public/favicon.ico" type="image/x-icon" rel="shortcut icon">
@@ -12,34 +13,36 @@
 
   <div class="calculator">
     <div class="row">
-      <div class="text-box"></div>
-      <img class="operation" id="clear" src="./public/operations/clear.png" alt="clear">
+      <img id="clear" src="./public/operations/clear.png" alt="clear">
+      <div class="text-box">
+        0
+      </div>
     </div>
 
     <div class="row">
-      <img class="number" id="n7" src="./public/numbers/seven.png" alt="seven">
-      <img class="number" id="n8" src="./public/numbers/eight.png" alt="eight">
-      <img class="number" id="n9" src="./public/numbers/nine.png" alt="nine">
+      <img class="number" data-number="7" src="./public/numbers/seven.png" alt="seven">
+      <img class="number" data-number="8" src="./public/numbers/eight.png" alt="eight">
+      <img class="number" data-number="9" src="./public/numbers/nine.png" alt="nine">
       <img class="operation" id="divide" src="./public/operations/divide.png" alt="divide">
     </div>
 
     <div class="row">
-      <img class="number" id="n4" src="./public/numbers/four.png" alt="four">
-      <img class="number" id="n5" src="./public/numbers/five.png" alt="five">
-      <img class="number" id="n6" src="./public/numbers/six.png" alt="six">
+      <img class="number" data-number="4" src="./public/numbers/four.png" alt="four">
+      <img class="number" data-number="5" src="./public/numbers/five.png" alt="five">
+      <img class="number" data-number="6" src="./public/numbers/six.png" alt="six">
       <img class="operation" id="multiply" src="./public/operations/multiply.png" alt="multiply">
     </div>
 
     <div class="row">
-      <img class="number" id="n1" src="./public/numbers/one.png" alt="one">
-      <img class="number" id="n2" src="./public/numbers/two.png" alt="two">
-      <img class="number" id="n3" src="./public/numbers/three.png" alt="three">
+      <img class="number" data-number="1" src="./public/numbers/one.png" alt="one">
+      <img class="number" data-number="2" src="./public/numbers/two.png" alt="two">
+      <img class="number" data-number="3" src="./public/numbers/three.png" alt="three">
       <img class="operation" id="minus" src="./public/operations/minus.png" alt="minus">
     </div>
 
     <div class="row">
-      <img class="number" id="n0" src="./public/numbers/zero.png" alt="one">
-      <img class="number" id="ndecimal" src="./public/numbers/decimal.png" alt="decimal">
+      <img class="number" data-number="0" src="./public/numbers/zero.png" alt="zero">
+      <img class="number" data-number="." id="ndecimal" src="./public/numbers/decimal.png" alt="decimal">
       <img class="operation" id="equal" src="./public/operations/equal.png" alt="equal">
       <img class="operation" id="plus" src="./public/operations/plus.png" alt="plus">
     </div>
