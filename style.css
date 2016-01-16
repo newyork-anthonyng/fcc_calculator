@@ -1,0 +1,29 @@
+.background {
+  left: -24em;
+  opacity: 0.2;
+  position: fixed;
+  top: 15em;
+  transform: rotate(90deg); }
+
+.calculator {
+  margin: 4em auto;
+  min-width: 416px;
+  width: 0; }
+
+.text-box {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-bottom: 0.7em;
+  height: 5em;
+  width: 19.3em; }
+
+.row > img {
+  opacity: 1;
+  transition: all 0.8s; }
+
+.row > img:hover {
+  opacity: 0.5;
+  transition: all 0.1s;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
