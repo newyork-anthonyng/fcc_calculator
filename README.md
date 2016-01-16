@@ -1,7 +1,7 @@
 ## Calculator
 This is the third front-end project for [freecodecamp.com](freecodecamp.com). You have to create a simple calculator.
 
-## Not yet hosted on Heroku
+## Hosted on [Github](http://newyork-anthonyng.github.io/fcc_calculator/)
 
 ## Tools Used
 jQuery, HTML and SCSS/CSS
